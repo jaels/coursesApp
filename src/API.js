@@ -16,5 +16,20 @@ module.exports = {
                 });
             })
         })
+    },
+    getLocation() {
+        return new Promise((resolve, reject) => {
+            fetch("https://api.ipify.org?format=json").then(res => {
+                res.json().then(data => {
+                    console.log(data);
+                    fetch(`http://api.ipstack.com/${data.ip}?access_key=d16ca4195ef1a7171a0bea3b3a767fa6`).then(res => {
+                        res.json().then(data => {
+                            console.log(data);
+                            resolve(data);
+                        })
+                    });
+                });
+            });
+        })
     }
 }

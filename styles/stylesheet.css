@@ -17,3 +17,7 @@ body {
     color: #FFFFFF;
     background-color: #223c50;
 }
+
+.courseInfo {
+    height: 70px;
+}
