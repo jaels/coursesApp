@@ -19,5 +19,9 @@ body {
 }
 
 .courseInfo {
-    height: 70px;
+    height: auto;
+}
+
+.noDisplay {
+    display: none;
 }
