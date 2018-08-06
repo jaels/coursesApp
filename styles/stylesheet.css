@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    font-family: "TradeGothic","Helvetica","Arial","sans-serif";
+    color: #223c50;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.course {
+    border-bottom: 1px solid #223c50;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.course:hover {
+    color: #FFFFFF;
+    background-color: #223c50;
+}
