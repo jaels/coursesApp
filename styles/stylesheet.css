@@ -1,16 +1,27 @@
 body {
     text-align: center;
-    font-family: "TradeGothic","Helvetica","Arial","sans-serif";
+    font-family: "Helvetica","Arial","sans-serif";
     color: #223c50;
     padding: 20px;
-    overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        padding-left: 15%;
+        padding-right: 15%;    
+    }
+}
+
+#foundry-logo {
+    height: 90px;
 }
 
 .course {
     border-bottom: 1px solid #223c50;
-    padding: 15px;
+    padding: 8px;
     cursor: pointer;
     transition: background-color 0.1s ease-in-out;
+    z-index: 10;
 }
 
 .course:hover {
