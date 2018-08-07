@@ -12,3 +12,9 @@ These are the earliest versions that support it:
 - Firefox: 54, Jun 2017
 - Edge: 14, Aug 2016
 - Safari: 10, Sep 2016
+
+
+### Given more time
+
+- Add a loader when data is fetched.
+- Improve design.
